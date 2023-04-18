@@ -8,10 +8,10 @@ for (let c = 0; c < listaMail.length; c++){
     // console.log(listaMail[c]);
 
     const mailIdonea = listaMail[c];
-    if(mail = mailIdonea){
-        alert("La tua mail : " + mail + "è idonea")
+    if(mail == mailIdonea){
+        alert("La tua mail : " + mail + " è idonea")
     } else{
-        alert("La tua email: "+ mail + "non è idonea")
+        alert("La tua email: "+ mail + " non è idonea")
     }
 
 }
